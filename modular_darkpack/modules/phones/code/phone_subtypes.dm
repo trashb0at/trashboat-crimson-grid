@@ -53,7 +53,14 @@
 /obj/item/smartphone/nosferatu_primo
 	important_contact_of = VAMPIRE_CLAN_NOSFERATU
 	contact_networks_pre_init = list(
-		alist(NETWORK_ID = VAMPIRE_LEADER_NETWORK, OUR_ROLE = "Utility Administrator", USE_JOB_TITLE = FALSE)
+		alist(NETWORK_ID = VAMPIRE_LEADER_NETWORK, OUR_ROLE = "Utility Comissioner", USE_JOB_TITLE = FALSE)
+		, alist(NETWORK_ID = NOSFERATU_CLAN_NETWORK, OUR_ROLE = "Utility Comissioner", USE_JOB_TITLE = FALSE)
+		)
+
+/obj/item/smartphone/payphone/nosferatu_haven
+	important_contact_of = VAMPIRE_CLAN_NOSFERATU
+	contact_networks_pre_init = list(
+		alist(NETWORK_ID = NOSFERATU_CLAN_NETWORK, OUR_ROLE = "Utility Department Payphone", USE_JOB_TITLE = FALSE)
 		)
 
 // MALKAVIAN

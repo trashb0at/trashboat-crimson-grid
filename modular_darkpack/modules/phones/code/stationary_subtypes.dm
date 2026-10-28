@@ -45,3 +45,21 @@
 /obj/item/smartphone/emergency/attack_hand(mob/user, list/modifiers)
 	. = ..()
 	ui_interact(user)
+
+// Nosferatu Haven Phone
+
+/obj/item/smartphone/payphone/nosferatu_haven
+	name = "utility department payphone"
+	desc = "A direct line to the Utilities Comissioner."
+	ONFLOOR_ICON_HELPER(null)
+	icon = 'modular_darkpack/modules/phones/icons/phone.dmi'
+	base_icon_state = "payphone"
+	icon_state = "payphone"
+	anchored = TRUE
+	opened = TRUE
+	always_open = TRUE
+	default_sim_card_type = /obj/item/sim_card/landline
+
+/obj/item/smartphone/payphone/attack_hand(mob/user, list/modifiers)
+	. = ..()
+	ui_interact(user)
