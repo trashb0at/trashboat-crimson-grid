@@ -23,6 +23,9 @@ GLOBAL_LIST_EMPTY(sabbat_network)
 // CRIMSON EDIT ADD - Triad
 GLOBAL_LIST_EMPTY(triad_network)
 // CRIMSON EDIT END - Triad
+// CRIMSON EDIT ADD - Clan Haven Payphones
+GLOBAL_LIST_EMPTY(nosferatu_clan_network)
+// CRIMSON EDIT END - Clan Haven Payphones
 
 #define MILLENIUM_TOWER_NETWORK 1
 #define LASOMBRA_NETWORK 2
@@ -42,6 +45,9 @@ GLOBAL_LIST_EMPTY(triad_network)
 // CRIMSON EDIT ADD - Triads
 #define TRIAD_NETWORK 16
 // CRIMSON EDIT END - Triads
+// CRIMSON EDIT ADD - Clan Haven Payphones
+#define NOSFERATU_CLAN_NETWORK 17
+// CRIMSON EDIT END - Clan Haven Payphones
 
 // An indexed list of all the different phone networks that connect the phones that are part of them together.
 GLOBAL_LIST_INIT(contact_networks, alist(
@@ -63,4 +69,7 @@ GLOBAL_LIST_INIT(contact_networks, alist(
 	// CRIMSON EDIT ADD - Triads
 	TRIAD_NETWORK = GLOB.triad_network,
 	// CRIMSON EDIT END - Triads
+	// CRIMSON EDIT ADD - Clan Haven Payphones
+	NOSFERATU_CLAN_NETWORK = GLOB.nosferatu_clan_network,
+	// CRIMSON EDIT ADD - Clan Haven Payphones
 ))

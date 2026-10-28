@@ -50,7 +50,7 @@
 
 /obj/item/smartphone/payphone/nosferatu_haven
 	name = "utility department payphone"
-	desc = "A direct line to the Utilities Comissioner."
+	desc = "A direct line to the Utility Comissioner."
 	ONFLOOR_ICON_HELPER(null)
 	icon = 'modular_darkpack/modules/phones/icons/phone.dmi'
 	base_icon_state = "payphone"

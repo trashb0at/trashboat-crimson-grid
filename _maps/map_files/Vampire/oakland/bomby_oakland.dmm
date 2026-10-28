@@ -65311,6 +65311,7 @@
 	dir = 8
 	},
 /obj/effect/decal/graffiti,
+/obj/item/smartphone/payphone/nosferatu_haven,
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone4"
 	},
