@@ -45,7 +45,7 @@
 /obj/item/smartphone/emergency/attack_hand(mob/user, list/modifiers)
 	. = ..()
 	ui_interact(user)
-
+// CRIMSON EDIT ADD - Clan Haven Payphones
 // Nosferatu Haven Phone
 
 /obj/item/smartphone/payphone/nosferatu_haven
@@ -58,8 +58,10 @@
 	anchored = TRUE
 	opened = TRUE
 	always_open = TRUE
-	default_sim_card_type = /obj/item/sim_card/landline
+	default_sim_card_type = /obj/item/sim_card/nosferatu_landline
 
 /obj/item/smartphone/payphone/attack_hand(mob/user, list/modifiers)
 	. = ..()
 	ui_interact(user)
+
+// CRIMSON EDIT END - Clan Haven Payphones

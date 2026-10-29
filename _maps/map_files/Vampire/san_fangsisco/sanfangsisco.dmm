@@ -70545,6 +70545,10 @@
 	},
 /turf/open/floor/plating/canal,
 /area/vtm/interior/sewer)
+"qUF" = (
+/obj/item/smartphone/payphone/nosferatu_haven,
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/sewer/nosferatu_town)
 "qUJ" = (
 /obj/effect/turf_decal/siding/wideplating/red/corner{
 	dir = 8
@@ -110167,7 +110171,7 @@ fZO
 hZO
 fZO
 nxc
-fZO
+qUF
 fZO
 fZO
 fZO
