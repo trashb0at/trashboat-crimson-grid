@@ -73,14 +73,16 @@
 	phone_number = SSphones.generate_phone_number(src, TRUE)
 	. = ..()
 
-/obj/item/sim_card/nosferatu_landline
-	name = "\improper Landline SIM card"
-	desc = "Please put me back into the payphone."
-
 // CRIMSON EDIT ADD - Clan Haven Payphones
 
+/obj/item/sim_card/nosferatu_landline
+	name = "\improper Landline SIM card"
+	desc = "A SIM card with the number of the Utility Comissioner."
+	phone_number = "6281541231"
+
+
 /obj/item/sim_card/nosferatu_landline/Initialize(mapload)
-	phone_number = SSphones.generate_phone_number(src, TRUE)
+	SSphones.assigned_phone_numbers[src] = phone_number
 	. = ..()
 
 // CRIMSON EDIT END - Clan Haven Payphones
